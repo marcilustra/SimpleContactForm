@@ -18,8 +18,17 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+    
     width: fit-content;
     padding: 10px;
     border-radius: 15px;
     background-color: rgb(54, 149, 208);
+}
+br{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: aliceblue;
+}
+input {
+    width: 90%;
 }

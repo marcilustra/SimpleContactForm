@@ -15,15 +15,18 @@
     <div id="form-body">
         <form action="destination.php" method="post">
             <div class="form-input">
-                <label for="username">Name</label>
+                <label class = "daLabels" for="username">Name</label>
+                <br>
                 <input type="text" name = "username" id="username" required>
             </div>
             <div class="form-input">
-                <label for="email_">Email</label>
+                <label class = "daLabels" for="email_">Email</label>
+                <br>
                 <input type="email" name="email" id="email_">
             </div>
             <div class="form-input">
-                <label for="options">What is youe issue?</label>
+                <label class = "daLabels" for="options">What is youe issue?</label>
+                <br>
                 <select name="options" id="options">
                     <option value="friend">Friend</option>
                     <option value="foe">Foe</option>
@@ -33,7 +36,8 @@
                 </select>
             </div>
             <div class="form-input">
-                <label for="comment">Justify it!</label>
+                <label class = "daLabels" for="comment">Justify it!</label>
+                <br>
                 <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
             </div>
         </form>
