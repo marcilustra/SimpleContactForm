@@ -22,23 +22,25 @@
             <div class="form-input">
                 <label class = "daLabels" for="email_">Email</label>
                 <br>
-                <input type="email" name="email" id="email_">
+                <input type="email" name="email" id="email_" required>
             </div>
             <div class="form-input">
-                <label class = "daLabels" for="options">What is youe issue?</label>
                 <br>
-                <select name="options" id="options">
-                    <option value="friend">Friend</option>
-                    <option value="foe">Foe</option>
-                    <option value="antagonist">Antagonist</option>
-                    <option value="protagonist">Protagonist</option>
-                    <option value="side">Side Character</option>
+                <select name="options" id="options" required>
+                    <option value="friend">A feature is not working</option>
+                    <option value="foe">Language setting not updating</option>
+                    <option value="antagonist">Time stuck</option>
+                    <option value="protagonist">Other</option>
                 </select>
             </div>
             <div class="form-input">
-                <label class = "daLabels" for="comment">Justify it!</label>
+                <label class = "daLabels" for="comment">Tell us more</label>
                 <br>
-                <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+                <textarea name="comment" id="comment" cols="30" rows="10" required placeholder="what else..."></textarea>
+            </div>
+            <div class="submit">
+                <br>
+                <button type="submit" value="submit">Send</button>
             </div>
         </form>
     </div>
