@@ -38,6 +38,9 @@ html {
     background-image: linear-gradient(to top, rgb(135, 27, 61), rgb(16, 4, 16));
     box-shadow: 3.5px 2px rgba(218, 67, 170, 0.776);
 }
+textarea {
+    resize: none;
+}
 #welcome {
     color: aliceblue;
 }
