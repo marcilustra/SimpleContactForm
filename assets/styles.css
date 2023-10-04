@@ -3,6 +3,9 @@ html {
     background-color: rgba(22, 27, 40, 0.917);
     background-image: linear-gradient(to top, rgb(121, 24, 40), rgb(4, 4, 16));
 }
+#simple {
+    color: beige;
+}
 .heading {
     color: rgba(232, 191, 159, 0.772);
     width: fit-content;
@@ -16,12 +19,19 @@ html {
 }
 
 #form-body {
-    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(0%, 25%);
+    /* margin: auto; */
     display: flex;
     align-items: center;
     justify-content: center;
 
     width: fit-content;
+    height: 50vh;
     padding: 25px;
     border-radius: 15px;
     background-color: rgba(37, 94, 130, 0.696);
@@ -39,7 +49,7 @@ br{
 label {
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.8rem;
+    font-size: 1.2em;
 }
 .form-input > input, textarea, select, button {
     width: 99%;
@@ -47,8 +57,10 @@ label {
     border: none;
     border-radius: 5px;
 }
-input {
-    height: 20px;
+input, select {
+    height: 35px;
+    color: aliceblue;
+    font-size: 1.2rem;
 }
 .submit {
     display: flex;
@@ -56,7 +68,6 @@ input {
     justify-content: center;
 }
 button {
-    /* margin   : auto; */
     margin-top: 10px;
     background-color: rgba(172, 255, 47, 0.772);
     height: 25px;

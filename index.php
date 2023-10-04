@@ -9,18 +9,18 @@
 </head>
 
 <body>
-    <div class="heading">
-        <h1>Report an issue</h1>
-    </div>
     <div id="form-body">
         <form action="destination.php" method="post">
-            <div class="form-input">
-                <label class = "daLabels" for="username">Name</label>
-                <br>
-                <input type="text" name = "username" id="username" required>
+            <div class="heading">
+                <h1>Report an issue</h1>
             </div>
             <div class="form-input">
-                <label class = "daLabels" for="email_">Email</label>
+                <label class="daLabels" for="username">Name</label>
+                <br>
+                <input type="text" name="username" id="username" required>
+            </div>
+            <div class="form-input">
+                <label class="daLabels" for="email_">Email</label>
                 <br>
                 <input type="email" name="email" id="email_" required>
             </div>
@@ -34,9 +34,10 @@
                 </select>
             </div>
             <div class="form-input">
-                <label class = "daLabels" for="comment">Tell us more</label>
+                <label class="daLabels" for="comment">Tell us more</label>
                 <br>
-                <textarea name="comment" id="comment" cols="30" rows="10" required placeholder="what else..."></textarea>
+                <textarea name="comment" id="comment" cols="60" rows="10" required
+                    placeholder="what else..."></textarea>
             </div>
             <div class="submit">
                 <button type="submit" value="submit">Send</button>
