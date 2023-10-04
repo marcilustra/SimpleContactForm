@@ -10,7 +10,7 @@
 
 <body>
     <div class="heading">
-        <h1>Marci PHPage</h1>
+        <h1>Report an issue</h1>
     </div>
     <div id="form-body">
         <form action="destination.php" method="post">
@@ -39,7 +39,6 @@
                 <textarea name="comment" id="comment" cols="30" rows="10" required placeholder="what else..."></textarea>
             </div>
             <div class="submit">
-                <br>
                 <button type="submit" value="submit">Send</button>
             </div>
         </form>

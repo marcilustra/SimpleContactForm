@@ -1,9 +1,10 @@
 html {
+    height: 100%;
     background-color: rgba(22, 27, 40, 0.917);
+    background-image: linear-gradient(to top, rgb(121, 24, 40), rgb(4, 4, 16));
 }
 .heading {
-    /* background-color: rgba(56, 140, 208, 0.748); */
-    color: aquamarine;
+    color: rgba(232, 191, 159, 0.772);
     width: fit-content;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -21,15 +22,45 @@ html {
     justify-content: center;
 
     width: fit-content;
-    padding: 10px;
+    padding: 25px;
     border-radius: 15px;
-    background-color: rgb(54, 149, 208);
+    background-color: rgba(37, 94, 130, 0.696);
+    background-image: linear-gradient(to top, rgb(135, 27, 61), rgb(16, 4, 16));
+    box-shadow: 3.5px 2px rgba(218, 67, 170, 0.776);
+}
+#welcome {
+    color: aliceblue;
 }
 br{
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 5px;
     background-color: aliceblue;
 }
-.form-input > input {
-    width: 90%;
+label {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+}
+.form-input > input, textarea, select, button {
+    width: 99%;
+    background-color: rgba(255, 228, 196, 0.541);
+    border: none;
+    border-radius: 5px;
+}
+input {
+    height: 20px;
+}
+.submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    /* margin   : auto; */
+    margin-top: 10px;
+    background-color: rgba(172, 255, 47, 0.772);
+    height: 25px;
+    width: 125px;
+    border-radius: 15px;
+
 }
