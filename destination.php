@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="destin">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,35 @@
     <title>destination</title>
     <link rel="stylesheet" href="assets/styles.css">
 </head>
+
 <body>
-    <p id = "welcome"> YOU HAVE ARRIVED HOME. </p>
+    <form id="destin-out">
+        <div>
+            <label>Name:
+                <?php
+                echo ($_POST['username']);
+                ?>
+            </label>
+            <br>
+            <label>Email:
+                <?php
+                echo ($_POST['email']);
+                ?>
+            </label>
+            <br>
+            <label>Issue:
+                <?php
+                echo ($_POST['options']);
+                ?>
+            </label>
+            <br>
+            <label>Additional Comment:
+                <?php
+                echo ($_POST['comment']);
+                ?>
+            </label>
+        </div>
+    </form>
 </body>
+
 </html>

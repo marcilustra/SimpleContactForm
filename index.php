@@ -27,10 +27,10 @@
             <div class="form-input">
                 <br>
                 <select name="options" id="options" required>
-                    <option value="friend">A feature is not working</option>
-                    <option value="foe">Language setting not updating</option>
-                    <option value="antagonist">Time stuck</option>
-                    <option value="protagonist">Other</option>
+                    <option value="Feature not working">A feature is not working</option>
+                    <option value="Language no update">Language setting not updating</option>
+                    <option value="Stuck time">Time stuck</option>
+                    <option value="Something else...">Other</option>
                 </select>
             </div>
             <div class="form-input">
